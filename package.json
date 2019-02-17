@@ -2,7 +2,7 @@
   "name": "imoocmanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://timelessover.github.io/react-admin/bulid",
   "dependencies": {
     "antd": "^3.4.3",
     "autoprefixer": "7.1.6",
