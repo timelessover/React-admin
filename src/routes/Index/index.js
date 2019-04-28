@@ -33,13 +33,13 @@ class Index extends React.Component{
             <Header style={{background: '#fff', padding: '0 16px'}}>
               <HeaderBar collapsed={this.state.collapsed} onToggle={this.toggle}/>
             </Header>
-            <Content> 
+            <Content>
               <ContentMain/>
             </Content>
-            <Footer style={{textAlign: 'center'}}>React-Admin ©2018 Created by Chris.com <a  href='https://github.com/timelessover' target='_blank' rel="noopener noreferrer">github地址</a></Footer>
+            <Footer style={{textAlign: 'center'}}>React-Admin ©2018 Created by 137596665@qq.com <a target='_blank' href='https://github.com/zhangZhiHao1996/react-admin-master'>github地址</a></Footer>
           </Layout>
         </Layout>
-      </div> 
+      </div>
     );
   }
 }

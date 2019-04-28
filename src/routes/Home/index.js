@@ -1,6 +1,6 @@
 import React from 'react'
 import {Carousel} from 'antd'
-import './style.scss'
+import './style.css'
 
 const imgs = [
   'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide1.jpg?raw=true',

@@ -5,6 +5,7 @@ import { inject, observer } from 'mobx-react/index'
 import { Form, Input, Row, Col } from 'antd'
 import PromptBox from '../../components/PromptBox'
 
+
 @withRouter @inject('appStore') @observer @Form.create()
 class LoginForm extends React.Component {
   state = {
@@ -49,7 +50,6 @@ class LoginForm extends React.Component {
       code
     })
   }
-  //登录
   loginSubmit = (e) => {
     e.preventDefault()
     this.setState({
@@ -99,7 +99,6 @@ class LoginForm extends React.Component {
       }
     })
   }
-  //注册
   register = () => {
     this.props.switchShowBox('register')
     setTimeout(() => this.props.form.resetFields(), 500)

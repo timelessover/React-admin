@@ -1,7 +1,7 @@
 import React from 'react'
 import BGParticle from '../../utils/BGParticle'
 import { notification } from 'antd'
-import './style.scss'
+import './style.css'
 import { withRouter } from 'react-router-dom'
 import { inject, observer } from 'mobx-react/index'
 import Loading2 from '../../components/Loading2'
@@ -122,11 +122,13 @@ const styles = {
     left: '0',
     width: '100vw',
     height: '100vh',
+    // backgroundImage: 'url(https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/bg5.jpg?raw=true)',
     backgroundImage: 'url(https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/bg1.jpg?raw=true)',
     backgroundSize: '100% 100%',
     transition:'all .5s'
   },
   focus: {
+    // transform: 'scale(0.7)',
     width: '20px',
     opacity: 1
   },
@@ -145,7 +147,7 @@ const styles = {
     color:'#000',
     fontWeight:500,
     fontSize:24
-  }
+  },
 }
 
 export default Login

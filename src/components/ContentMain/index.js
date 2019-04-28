@@ -14,31 +14,31 @@ const DropdownDemo = LoadableComponent(()=>import('../../routes/Navigation/Dropd
 const MenuDemo = LoadableComponent(()=>import('../../routes/Navigation/MenuDemo/index'))
 const StepsDemo = LoadableComponent(()=>import('../../routes/Navigation/StepsDemo/index'))
 
-// //输入组件Demo
-// const FormDemo1 = LoadableComponent(()=>import('../../routes/Entry/FormDemo/FormDemo1'))
-// const FormDemo2 = LoadableComponent(()=>import('../../routes/Entry/FormDemo/FormDemo2'))
-// const UploadDemo = LoadableComponent(()=>import('../../routes/Entry/UploadDemo/index'))
+//输入组件Demo
+const FormDemo1 = LoadableComponent(()=>import('../../routes/Entry/FormDemo/FormDemo1'))
+const FormDemo2 = LoadableComponent(()=>import('../../routes/Entry/FormDemo/FormDemo2'))
+const UploadDemo = LoadableComponent(()=>import('../../routes/Entry/UploadDemo/index'))
 
-// //显示组件Demo
-// const CarouselDemo = LoadableComponent(()=>import('../../routes/Display/CarouselDemo/index'))
-// const CollapseDemo = LoadableComponent(()=>import('../../routes/Display/CollapseDemo/index'))
-// const ListDemo = LoadableComponent(()=>import('../../routes/Display/ListDemo/index'))
-// const TableDemo = LoadableComponent(()=>import('../../routes/Display/TableDemo/index'))
-// const TabsDemo = LoadableComponent(()=>import('../../routes/Display/TabsDemo/index'))
+//显示组件Demo
+const CarouselDemo = LoadableComponent(()=>import('../../routes/Display/CarouselDemo/index'))
+const CollapseDemo = LoadableComponent(()=>import('../../routes/Display/CollapseDemo/index'))
+const ListDemo = LoadableComponent(()=>import('../../routes/Display/ListDemo/index'))
+const TableDemo = LoadableComponent(()=>import('../../routes/Display/TableDemo/index'))
+const TabsDemo = LoadableComponent(()=>import('../../routes/Display/TabsDemo/index'))
 
-// //反馈组件Demo
-// const SpinDemo = LoadableComponent(()=>import('../../routes/Feedback/SpinDemo/index'))
-// const ModalDemo = LoadableComponent(()=>import('../../routes/Feedback/ModalDemo/index'))
-// const NotificationDemo = LoadableComponent(()=>import('../../routes/Feedback/NotificationDemo/index'))
+//反馈组件Demo
+const SpinDemo = LoadableComponent(()=>import('../../routes/Feedback/SpinDemo/index'))
+const ModalDemo = LoadableComponent(()=>import('../../routes/Feedback/ModalDemo/index'))
+const NotificationDemo = LoadableComponent(()=>import('../../routes/Feedback/NotificationDemo/index'))
 
-// //其它
-// const AnimationDemo = LoadableComponent(()=>import('../../routes/Other/AnimationDemo/index'))
-// const GalleryDemo = LoadableComponent(()=>import('../../routes/Other/GalleryDemo/index'))
-// const DraftDemo = LoadableComponent(()=>import('../../routes/Other/DraftDemo/index'))
-// const ChartDemo = LoadableComponent(()=>import('../../routes/Other/ChartDemo/index'))
-// const LoadingDemo = LoadableComponent(()=>import('../../routes/Other/LoadingDemo/index'))
-// const ErrorPage = LoadableComponent(()=>import('../../routes/Other/ErrorPage/index'))
-// const SpringText = LoadableComponent(()=>import('../../routes/Other/SpringText/index'))
+//其它
+const AnimationDemo = LoadableComponent(()=>import('../../routes/Other/AnimationDemo/index'))
+const GalleryDemo = LoadableComponent(()=>import('../../routes/Other/GalleryDemo/index'))
+const DraftDemo = LoadableComponent(()=>import('../../routes/Other/DraftDemo/index'))
+const ChartDemo = LoadableComponent(()=>import('../../routes/Other/ChartDemo/index'))
+const LoadingDemo = LoadableComponent(()=>import('../../routes/Other/LoadingDemo/index'))
+const ErrorPage = LoadableComponent(()=>import('../../routes/Other/ErrorPage/index'))
+const SpringText = LoadableComponent(()=>import('../../routes/Other/SpringText/index'))
 
 //关于
 const About = LoadableComponent(()=>import('../../routes/About/index'))
@@ -58,7 +58,7 @@ class ContentMain extends React.Component {
           <PrivateRoute exact path='/home/navigation/menu' component={MenuDemo}/>
           <PrivateRoute exact path='/home/navigation/steps' component={StepsDemo}/>
  
-          {/* <PrivateRoute exact path='/home/entry/form/basic-form' component={FormDemo1}/>
+          <PrivateRoute exact path='/home/entry/form/basic-form' component={FormDemo1}/>
           <PrivateRoute exact path='/home/entry/form/step-form' component={FormDemo2}/>
           <PrivateRoute exact path='/home/entry/upload' component={UploadDemo}/>
 
@@ -78,7 +78,7 @@ class ContentMain extends React.Component {
           <PrivateRoute exact path='/home/other/chart' component={ChartDemo}/>
           <PrivateRoute exact path='/home/other/loading' component={LoadingDemo}/>
           <PrivateRoute exact path='/home/other/404' component={ErrorPage}/>
-          <PrivateRoute exact path='/home/other/springText' component={SpringText}/> */}
+          <PrivateRoute exact path='/home/other/springText' component={SpringText}/>
 
           <PrivateRoute exact path='/home/about' component={About}/>
 
