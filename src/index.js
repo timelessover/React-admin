@@ -9,7 +9,7 @@ import App from './App';
 import store from './store'
 
 ReactDOM.render(
-  <BrowserRouter basename="/react-admin/build/">
+  <BrowserRouter basename="/react-admin">
     <LocaleProvider locale={zh_CN}>
       <Provider {...store}>
         <App/>
