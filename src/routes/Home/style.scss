@@ -1,11 +1,12 @@
 //覆盖一些样式
 .home .ant-carousel .slick-slide {
-    height: calc(100vh - 64px);
+    height: calc(100vh - 133px);
     overflow: hidden;
 }
 .home .size{
-    height: calc(100vh - 64px);
+    height: calc(100vh - 133px);
     width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .home .ant-carousel .slick-slider .slick-arrow{

@@ -1,7 +1,7 @@
 import React from 'react'
 import BGParticle from '../../utils/BGParticle'
 import { notification } from 'antd'
-import './style.css'
+import './style.scss'
 import { withRouter } from 'react-router-dom'
 import { inject, observer } from 'mobx-react/index'
 import Loading2 from '../../components/Loading2'

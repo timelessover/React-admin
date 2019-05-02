@@ -1,6 +1,6 @@
 import React from 'react'
 import {Carousel} from 'antd'
-import './style.css'
+import './style.scss'
 
 const imgs = [
   'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide1.jpg?raw=true',
@@ -14,8 +14,7 @@ class Home extends React.Component {
     return (
       <div style={styles.bg} className='home'>
         <Carousel arrows effect='fade' className='size'>
-          {imgs.map(item=><div key={item}><div className='size' style={{backgroundImage:`url(${item})`}}/></div>)}
-          {/*不用img标签是因为图片大小会出现问题*/}
+          {imgs.map( (item,index) => <div key={index}><img src = {item} className='size' alt=""/></div>)}
         </Carousel>
       </div>
     )
@@ -28,7 +27,7 @@ const styles = {
     top:0,
     left:0,
     width:'100%',
-    height:'calc(100vh - 64px)'
+    height: 'calc(100vh - 133px)'
   }
 }
 

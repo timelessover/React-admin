@@ -14,7 +14,7 @@ class HeaderBar extends React.Component {
     icon: 'arrows-alt',
     count: 100,
     visible: false,
-    avatar: require('./img/04.jpg')
+    avatar: 'https://avatars2.githubusercontent.com/u/34708197?s=460&v=4'
   }
 
   componentDidMount () {
@@ -48,7 +48,7 @@ class HeaderBar extends React.Component {
     const notLogin = (
       <div>
         <Link to={{pathname: '/login', state: {from: location}}} style={{color: 'rgba(0, 0, 0, 0.65)'}}>登录</Link>&nbsp;
-        <img src={require('../../assets/img/defaultUser.jpg')} alt=""/>
+        <img src='https://avatars2.githubusercontent.com/u/34708197?s=460&v=4' alt=""/>
       </div>
     )
     const menu = (
